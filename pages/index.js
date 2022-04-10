@@ -4,8 +4,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
     <div className={styles.container}>
-     
+     <Head>
+        <title>My page title</title>
+        <meta name="msvalidate.01" content="93AB6C382A387B3E38C57C0901DF82AD" />
+      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
